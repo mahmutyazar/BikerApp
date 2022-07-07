@@ -17,12 +17,13 @@ struct DetailsView: View {
             Image(chosenFavoriteElement.imagename)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 550, height: 450)
+                .padding()
             Text(chosenFavoriteElement.name)
                 .font(.largeTitle)
                 .padding()
             
             Text(chosenFavoriteElement.nation)
+                .padding()
     }
 }
 
