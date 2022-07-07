@@ -28,7 +28,7 @@ struct ContentView: View {
                    }
                }
            }
-       }.navigationBarTitle(Text("My Favorite Cyclers"))
+       }.navigationBarTitle(Text("Cyclers"))
    }
 }
 

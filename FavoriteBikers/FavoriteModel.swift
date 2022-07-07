@@ -39,5 +39,5 @@ let oguzhan = FavoriteElements(name: "Oguzhan Tiryaki", imagename: "oguzhan", na
 let onur = FavoriteElements(name: "Onur Balkan", imagename: "onur", nation: "Turkiye")
 
 let favoriteLocals = FavoriteModel(title: "LOCALS", elements: [ahmet, oguzhan, onur])
+let myFavorites = [favoriteForeigners, favoriteLocals]
 
-let myFavorites = [favoriteLocals, favoriteForeigners]
